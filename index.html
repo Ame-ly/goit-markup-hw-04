@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title lang="en">WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+ 
+<body>
+    <!--шапка-->
+    <header class="header">
+        <div class="container header-container">
+            <nav class="navigate">
+                <a href="./index.html" class="link logo"><span>Web</span>Studio</a>
+                <ul class="list menu site-nav">
+                    <li class="menu-item"><a href="./index.html" class="link-current">Студия</a></li>
+                    <li class="menu-item"><a href="./portfolio.html" class="link menu-link">Портфолио</a></li>
+                    <li class="menu-item"><a href="#contacts" class="link menu-link ">Контакты</a></li>
+                </ul> 
+            </nav>    
+                <ul class="list menu contacts-top">
+                    <li class="menu-item"><a href="mailto:info@devstudio.com" class="link menu-link link-contacts">info@devstudio.com</a></li>
+                    <li class="menu-item"><a href="tel:380991111111" class="link menu-link link-contacts">+38 099 111 11 11</a></li>
+                </ul>
+        </div>
+   </header>
+
+    <main>
+        <!--герой-->
+        
+        <section class="hero overlay">
+            <div class="container hero-box ">
+                <h1 class="page-title no-margin">Эффективные решения <br />для вашего бизнеса</h1>
+                <button class="main-btn" type="button">Заказать услугу</button>
+            </div>    
+        </section>
+        
+
+        <!--особенности-->
+        <section class="benefits">
+            <div class="container">
+                <h2 class="visually-hidden">Преимущества</h2>
+                <ul class="list menu-benefits menu">
+                    <li class="item icon icon-antenna">
+                        <h3 class="p-title no-margin">Внимание к деталям</h3>
+                        <p class="text">
+                            Идейные соображения, а также начало повседневной работы по
+                            формированию позиции.
+                        </p>
+                    </li>
+                    <li class="item  icon icon-clock">
+                        <h3  class="p-title no-margin">Пунктуальность</h3>
+                        <p class="text no-margin">
+                            Задача организации, в особенности же рамки и место обучения кадров
+                            влечет за собой.
+                        </p>
+                    </li>
+                    <li class="item icon icon-diagram">
+                        <h3  class="p-title no-margin">Планирование</h3>
+                        <p class="text no-margin">
+                            Равным образом консультация с широким активом в значительной
+                            степени обуславливает.
+                        </p>
+                    </li>
+                    <li class="item icon icon-astronaut">
+                        <h3 class="p-title no-margin">Современные технологии</h3>
+                        <p class="text no-margin">
+                            Значимость этих проблем настолько очевидна, что реализация
+                            плановых заданий.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Чем занимаемся-->
+        <section class="about">
+            <div class="container">
+                <h2  class="section-tittle no-margin">Чем занимаемся</h2>
+                <ul class="list menu menu-offers">
+                    <li class="item">
+                        <img src="./images/img.jpg" alt="В руках мобильный телефон" width="370"/>
+                    </li>
+                    <li class="item">
+                        <img src="./images/box2.jpg" alt="В руках планшет" width="370"/>
+                    </li>
+                    <li class="item">
+                        <img src="./images/box3.jpg" alt="За клавиатурой" width="370"/>
+                    </li>
+                </ul>
+            </div>   
+        </section>
+
+        <!--Наша команда-->
+        <section class="team">
+            <div class="container">
+                <h2 class="section-tittle no-margin">Наша команда</h2>
+                <ul class="list menu menu-team">                   
+                    <li class="team-card">
+                        <img src="./images/pd.jpg"  alt="Игорь Демьяненко" width="270"/>
+                        <div class="info">
+                            <h3  class="p-title no-margin">Игорь Демьяненко</h3>
+                            <p lang="en" class="text no-margin">Product Designer</p>
+                        </div>
+                    </li>
+                
+                    <li class="team-card">
+                        <img src="./images/fd.jpg" alt="Ольга Репина" width="270"/>
+                        <div class="info">
+                            <h3  class="p-title no-margin">Ольга Репина</h3>
+                            <p lang="en" class="text no-margin">Frontend Developer</p>
+                        </div>
+                    </li>
+                
+                    <li class="team-card">
+                        <img src="./images/market.jpg" alt="Николай Тарасов" width="270" />
+                        <div class="info">
+                            <h3 class="p-title no-margin">Николай Тарасов</h3>
+                            <p lang="en" class="text no-margin">Marketing</p>
+                        </div>
+                    </li>
+                
+                    <li class="team-card">                   
+                        <img src="./images/ui.jpg" alt="Михаил Ермаков" width="270"/>
+                        <div class="info">
+                            <h3 class="p-title no-margin">Михаил Ермаков</h3>
+                            <p lang="en" class="text no-margin">UI Designer</p>
+                        </div>                           
+                    </li>
+                </ul>
+            </div>    
+        </section>
+    </main>
+
+    <!--футер-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-box">
+                <address id="contacts"> 
+                    <a href="./index.html" class="link logo inverse "><span>Web</span>Studio</a>
+                    <ul class="page-futer link list">
+                        <li class="item item-link white-link "><a href="https://goo.gl/maps/ifoA3qWjALRfbkiX9" target="_blank" rel="noopener noreferer" class="link">г. Киев,
+                                пр-т Леси Украинки, 26</a></li>
+                        <li class=" item item-link"><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+                        <li class=" item item-link"><a href="tel:380991111111" class="link">+38 099 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+        </div>    
+    </footer>
+</body>
+
+</html>
